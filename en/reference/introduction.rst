@@ -139,7 +139,7 @@ Configuration
 The last thing you need to do is to configure your migrations. You can do so
 by using the *--configuration* option to manually specify the path
 to a configuration file. If you don't specify any configuration file the tasks will
-look for a file named *migrations.xml* or *migrations.yml* at the root of
+look for a file named *migrations.xml*, *migrations.yml*, *migrations.json* or *migrations.php* at the root of
 your command line. For the upcoming examples you can use a *migrations.xml*
 file like the following:
 
